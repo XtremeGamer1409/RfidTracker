@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.logo{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 20%;
+    border: 2px solid white;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 17px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: red;
+
+}
+.rightNav{
+    padding: 0 23px;
+    width: 30%;
+    text-align: right;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9 px;
+}
+
+.background{
+    background: rgba(0,0,0,0.7) url('../img/background.png ');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 90vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 60%;
+    margin: auto;
+    height: 80%;
+}
+.firstHalf{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.text-big{
+    font-size: 90px;
+    text-align: center;
+}
+.all-text{
+    font-size: 50px;
+    text-align: center;
+}
+.another-text{
+    font-size: 50px;
+    text-align: center;
+}
+
+.btn-sm{
+    padding: 3px 10px;
+    vertical-align: middle;
+}
+.btn-dark{
+    color: black;
+    border:solid grey;
+    padding:0 20px;
+}
+.secRight{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    font-size: 20px;
+}
+.contact{
+    background-color: #f9f5f5;
+    height: 500px;
+}
+.text-center{
+    text-align: center;
+    
+}
+.form{
+    max-width: 344px;
+    margin: auto;
+}
+.form-input{
+    margin: 14px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border-radius: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
